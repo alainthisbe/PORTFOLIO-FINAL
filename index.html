@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo BootStrap</title>
+
+    <!--         CDN ICONES BOOTSTRAP         -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <!--         CDN ICONES FONTAWESOME        -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--         CDN BOOTSTRAP         -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     
+    <!--         CSS Local         -->
+    
+    <!--  Polices  -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <!--  NAVBAR BOOTSTRAP -->
+
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand mr-5" href="#home">
+
+                    Alain THISBE
+                        
+                </a> 
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                    <ul class="navbar-nav">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profil">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#technologies">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#realisations">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        <!--  icônes réseaux sociaux -->
+
+        <div id="social">
+
+          <a href="./Cv/CV_AT.pdf"><button type="button" class="btn btn-primary" id="bouton-cv">Mon CV</button></a>
+
+          <br>
+                    
+            <!--  LIST-GROUP BOOTSTRAP -->
+
+            <ul class="list-group list-group-horizontal justify-content-center list-group-color-black">
+
+              <li>  
+                  <a href="http://www.linkedin.com/in/alain-thisbe-b015241b9" class="list-group-item"><i class="fa-brands fa-linkedin"></i></a>
+              </li> 
+
+            </ul>
+
+        </div>
+        
+    </header>
+
+    <!-- PROFIL-->
+
+    <section id="profil">
+
+        
+        <!--  CARD BOOTSTRAP -->
+        
+        <div class="card text-white bg-dark">
+            
+            <div class="card-body">
+              <h1 class="card-title text-center">Profil</h1>
+              <br>
+              <h5 class="card-subtitle text-center">Développeur Web / Web mobile</h5>
+              <br>
+              <hr>
+              <br>
+              <h4 class="card-text text-center">Issu du monde de l'informatique orienté réseaux et assistance utilsateurs, je désire à présent développer des
+                projets Web de diverses nature...</h4>
+               
+              <br>
+
+            </div>
+
+        </div>
+
+          <!--  CARROUSEL BOOTSTRAP --> 
+          
+        <div id="images-profil">
+            
+            <div id="carouselExampleSlidesOnly1" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner d-block bg-light carousel1">
+    
+                  <div class="carousel-item active">
+                    <img src="./images/dev-front-end.png" class="d-block w-100 img-techno" alt="Image Web Design">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/webdesign.jpg" class="d-block w-100 img-techno" alt="Image travail d'équipe">
+                  </div>
+                  
+                </div>
+
+                
+            </div>
+
+            
+
+            
+        </div>
+
+
+    </section>
+
+
+    <!-- TECHNOLOGIES - CAROUSSEL BOOTSTRAP -->
+
+    <section id="technologies">
+
+                    <h1>Technologies</h1>
+                    <hr>
+
+            <div id="carouselExampleSlidesOnly2" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner d-block carousel2">
+
+                  <div class="carousel-item active">
+                    <img src="./images/html5.png" class="d-block w-100 img-techno" alt="Image HTML">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/css3-1.png" class="d-block w-100 img-techno" alt="Image CSS">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/javascript.png" class="d-block w-100 img-techno" alt="Image Javascript">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/bootstrap.jpg" class="d-block w-100 img-techno" alt="Image Bootstrap">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/wordpressd.png" class="d-block w-100 img-techno" alt="Image WordPress">
+                  </div>
+
+                </div>
+
+            </div>
+  
+    </section>
+
+    <!-- COMPETENCES - CAROUSSEL BOOTSTRAP -->
+
+    <section id="competences">
+
+        
+        <h1>Compétences</h1>
+
+         <hr>           
+
+            <div id="carouselExampleSlidesOnly3" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner d-block bg-light carousel2">
+
+                  <div class="carousel-item active">
+                    <img src="./images/travail-equipe.jpg" class="d-block w-100 img-techno" alt="Image Web Design">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/responsive.png" class="d-block w-100 img-techno" alt="Image travail d'équipe">
+                  </div>
+                  
+                </div>
+
+            </div>
+  
+            
+            
+    </section>
+
+
+    <!-- REALISATIONS - CAROUSSEL BOOTSTRAP -->
+
+    <section id="realisations">
+
+            <h1>Réalisations</h1>
+            <hr>
+
+            <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner d-block carousel2">
+
+                  <div class="carousel-item active">
+                    <img src="./images/Capture-KW3.png" class="d-block w-100 img-techno" alt="Image KomeWaza">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Capture-CarteVisite.png" class="d-block w-100 img-techno" alt="Image Carte visite">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Capture-Zanzibar.png" class="d-block w-100 img-techno" alt="Image Zanzibar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/page-construction.jpg" class="d-block w-100 img-techno" alt="Image page construction">
+                  </div>
+                  
+                </div>
+
+            </div>
+
+    </section>
+
+    <!--     SCRIPT BOOT STRAP  A METTRE EN FIN DU BODY -->
+     
+    
+  <footer id="contact">
+    
+    <!-- LIST GROUP BOOTSTRAP -->
+    
+    
+    <ul class="list-group list-group justify-content-center align-items-center list-group-color-black bg-dark">
+
+          <li>
+            <h2>Me contacter</h2>
+          </li>
+
+          <li>
+            <a href="tel:+33652516898"><i class="fas fa-phone-volume"></i> 06 52 51 68 97</a>
+          </li>
+          
+          <li>
+            <a href="mailto:alain.thisbe@gmail.com"><i class="fas fa-at"></i> alain.thisbe@gmail.com</a> 
+          </li>
+                        
+    </ul>
+    
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

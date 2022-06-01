@@ -1,0 +1,176 @@
+
+* {
+
+    font-family: 'warnesregular', Courier, monospace;
+    text-decoration: none;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li, a, i {
+  
+    font-size: larger;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  
+  
+  li:hover, a:hover {
+  
+    transition: 0.3s;
+    transform: scale(1.20);
+  
+  }
+  
+  
+  
+  #social{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:white;
+    margin-top: 148px;
+    padding: 2em;
+    font-size: 250%;
+  
+  }
+  
+  #technologies{
+  
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+   
+  }
+  
+  .carousel2{
+  
+    height: 43vh;
+    width: 20vw;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 30px;
+   
+  }
+  
+  .carousel1{
+  
+    width: 20vw;
+    height: 25vh;
+    border: solid 3px black;
+    margin: 10px;
+  }
+  
+  #competences{
+  
+    height: 55vh;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+  }
+  
+  #realisations{
+  
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+   
+  }
+  
+  #images-profil{
+  
+    height: 35vh;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    
+  }
+  
+  footer {
+  
+    color: white;
+    padding-bottom: 1em;
+    
+  }
+
+  footer p{
+
+    color: white;
+    font-size: larger;
+    text-align: center;
+
+  }
+  
+ /****************************   RERSPONSIVE  ***************************** */
+
+  @media screen and (max-width: 767px) {
+
+    .carousel1{
+  
+      width: 60vw;
+      height: 15vh;
+      border: solid 3px black;
+      margin: 10px;
+    }
+
+    .carousel2{
+  
+      height: 30vh;
+      width: 65vw;
+      border: solid 3px black;
+      border-radius: 10px;
+      padding: 30px;
+     
+    }
+
+}
+ 
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+  .carousel1{
+
+    width: 40vw;
+    height: 15vh;
+    border: solid 3px black;
+    margin: 10px;
+  }
+
+  .carousel2{
+
+    height: 25vh;
+    width: 40vw;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 30px;
+   
+  }
+
+}
+
+ 
